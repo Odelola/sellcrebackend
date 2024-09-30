@@ -1,0 +1,22 @@
+{
+  "name": "sellcreai",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "next": "^12.2.4",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "react-sortablejs": "^6.1.4",
+    "sortablejs": "^1.15.3"
+  },
+  "devDependencies": {
+    "eslint": "8.57.1",
+    "eslint-config-next": "14.2.13"
+  }
+}

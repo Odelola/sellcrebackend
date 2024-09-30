@@ -1,0 +1,6 @@
+.homeMain{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background: #ffe2e2; */
+}

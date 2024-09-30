@@ -1,0 +1,36 @@
+.highlightedList{
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    padding: 1rem 1.5rem;
+    border-top: 2px solid #EAECF0;
+    /* border-bottom: 2px solid #EAECF0; */
+    
+    
+}
+.highlightedListSortable{
+    flex-basis: 5%;
+}
+.highLightInputFieldContainer{
+    display: flex;
+    flex-basis: 100%;
+    justify-content: space-between;
+    align-items: center;
+    /* flex-basis: 80%; */
+    padding: 1rem .5rem;
+    /* width: 100%; */
+}
+.highLightInputFieldContainer div:first-child{
+
+    flex: 85%;
+}
+.highLightInputFieldContainer div .highLightInputField{
+    border: 2px solid #EAECF0;
+    border-radius: 4px;
+    outline: var(--text-primary);
+    width: 100%;
+    color: #4E5864;
+    flex: 1;
+    background: var(--text-white);
+    }
+    

@@ -1,0 +1,16 @@
+.propertyHighlighterContainer{
+    width: var(--highlight-max-width);
+    background: var(--text-white);
+    
+}
+.propertyHighlighterContainer header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: var(--text-white);
+    padding: 1rem .7rem;
+}
+.propertyHighlighterContainer header aside:first-child{
+    display: flex;
+    column-gap: 5px;
+}
